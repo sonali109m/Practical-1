@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading{
+    background-color: aliceblue;
+}
+
+
+.section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+ nav h1{
+    color: rgb(125, 250, 0);
+    font-weight: 400;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* hero banner */
+main{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSZMB6g8xKf97tS9_2h2aduTAYlqSpEZ3e3w&s);
+    background-repeat: no-repeat;
+    height: 100dvh;
+    width: 100dvw;
+    background-position:center;
+    background-size: cover;
+    height: 60vh;
+}
+
+ img{
+    width: 100%;
+    height: 100%;
+ }
+
+ .hero-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 40px;
+    color: black;
+    padding: 20px;
+ }
+
+ p{
+    color: rgb(54, 53, 53);
+    text-align: center;
+ }
+ button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    color: rgb(125, 250, 0);
+    
+ }
+ .common{
+    background-color: white;
+ }
+ .gallary{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, min-max(150px, 1fr));    
+    gap: 20px;
+
+    
+ }
